@@ -14,7 +14,7 @@ export function Desc({ tweets }: Props) {
     <Card>
       <Card.Body>
         <Card.Title>{pluralize(tweets, "tweet")} analyzed</Card.Title>
-        The tweets are analysed as they came from Twitter Streaming API, using
+        Les tweets sont analysées à partir de Twitter en utilisant
         Stanford CoreNLP library.
       </Card.Body>
     </Card>

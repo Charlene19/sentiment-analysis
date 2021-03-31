@@ -143,7 +143,7 @@ function TweetList() {
                 variant={sentiment[tweet.sentimentType] as "success"}
               >
                 <Alert.Heading>
-                  <img src={tweet.profileImageUrl} />
+                  <img src={tweet.profileImageUrl}  alt={"tes"}/>
                   <a
                     href={"https://twitter.com/" + tweet.screenName}
                     className="text-muted"

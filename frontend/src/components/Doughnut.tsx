@@ -14,7 +14,7 @@ export function Doughnut({ tweets }: Props) {
   let [state, setState] = React.useState<{ chartOptions: Highcharts.Options }>({
     chartOptions: {
       title: {
-        text: "Sentiments stats"
+        text: "Statistiques des sentiments"
       },
       series: [
         {

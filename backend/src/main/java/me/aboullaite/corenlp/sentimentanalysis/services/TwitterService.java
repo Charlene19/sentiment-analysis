@@ -25,8 +25,14 @@ public class TwitterService {
         Twitter twitter = this.config.twitter(this.config.twitterFactory());
         Query query = new Query(keyword.concat(" -filter:retweets -filter:replies"));
         query.setCount(count);
-        query.setLocale("en");
-        query.setLang("en");
+       // query.setLocale("en");
+        //query.setLang("en");
+
+        //Test
+        query.setLocale("fr");
+        query.setLang("fr");
+        //Fin Test
+
         return Flux.fromStream( twitter.search(query).getTweets().stream()).map(status -> this.cleanTweets(status));
 
     }
@@ -35,7 +41,7 @@ public class TwitterService {
         TwitterStream stream = config.twitterStream();
         FilterQuery tweetFilterQuery = new FilterQuery();
         tweetFilterQuery.track(new String[]{keyword});
-        tweetFilterQuery.language(new String[]{"en"});
+        tweetFilterQuery.language(new String[]{"fr"});
         return Flux.create(sink -> {
             stream.onStatus(status -> sink.next(this.cleanTweets(status)));
             stream.onException(sink::error);
