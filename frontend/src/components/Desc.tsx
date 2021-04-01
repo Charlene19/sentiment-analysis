@@ -13,7 +13,7 @@ export function Desc({ tweets }: Props) {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>{pluralize(tweets, "tweet")} analyzed</Card.Title>
+        <Card.Title>{pluralize(tweets, "tweet")} analysés</Card.Title>
         Les tweets sont analysées à partir de Twitter en utilisant
         Stanford CoreNLP library.
       </Card.Body>

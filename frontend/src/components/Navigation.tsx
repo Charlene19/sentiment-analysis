@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import logo from "../img/twitter.jpg";
 import { MDBNavbar, MDBNavbarBrand } from "mdbreact";
-
+import './Navigation.css';
 
 
 export function Navigation() {
@@ -32,15 +32,26 @@ export function Navigation() {
         zIndex: 1
     };
   return (
-<div style={{backgroundColor: 'black', marginBottom: '50px'}}>
+<div style={{backgroundColor: 'black', marginBottom: '50px', justifyContent: "center"}}>
           <MDBNavbar >
-              <MDBNavbarBrand>
-                  <div >
-                        <span style={{color: 'white', fontSize: "120px", fontFamily: 'HelveticaNeueUltraLight'}} >
+              <MDBNavbarBrand >
+                  <div className="dropdown">
+                  <div className="dropbtn" style={{color: 'white', fontSize: "120px", fontFamily: 'HelveticaNeueUltraLight', marginLeft: '320px'}} >
 
-Analyseur de tweets
-                        </span>
+            Analyseur de tweets
 
+                  </div>
+
+                  <div className="dropdown-content">
+
+                      <a className="dropContent " href="/" >
+                          Home
+                      </a>
+
+                      <a className="dropContent " href="/" >
+                          Top Tweets
+                      </a>
+                  </div>
                   </div>
               </MDBNavbarBrand>
           </MDBNavbar>

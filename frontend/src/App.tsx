@@ -4,7 +4,7 @@ import TweetList from "./components/TweetList";
 import Navigation from "./components/Navigation";
 const App: React.FC = () => {
   return (
-    <div className="container">
+    <div >
       <Navigation />
       <TweetList />
     </div>

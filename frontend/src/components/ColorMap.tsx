@@ -6,12 +6,12 @@ export function ColorMap() {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Colors Mapping</Card.Title>
-        <Badge variant="danger">Very Negative</Badge>
-        <Badge variant="warning">Negative</Badge>
-        <Badge variant="secondary">Neutral</Badge>
-        <Badge variant="info">Positive</Badge>
-        <Badge variant="success">Very Positive</Badge>
+        <Card.Title>Répartition</Card.Title>
+        <Badge variant="danger">Vraiment Negatif</Badge>
+        <Badge variant="warning">Negatif</Badge>
+        <Badge variant="secondary">Neutre</Badge>
+        <Badge variant="info">Positif</Badge>
+        <Badge variant="success">Vraiment Positif</Badge>
       </Card.Body>
     </Card>
   );

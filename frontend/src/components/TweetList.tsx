@@ -79,7 +79,7 @@ function TweetList() {
       <Col xs={12} md={8}>
         <Col md={10}>
           <h2>
-            Tracked Keyword:
+            Mot-clefs :
             <Badge variant="secondary">{state.hashtag}</Badge>
           </h2>
         </Col>
@@ -127,7 +127,7 @@ function TweetList() {
                   });
                 }}
               >
-                Search
+                Rechercher
               </Button>
             </div>
           </div>
