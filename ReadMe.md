@@ -94,7 +94,7 @@ les choix de répartition de notre modèle.
 * [Java 8](https://www.java.com/fr/download/help/java8.html)
 * [Standford Core NLP](https://stanfordnlp.github.io/CoreNLP/)
 * [Spring Boot](https://spring.io/projects/spring-boot)
-* [Compte twitter développeur] (https://developer.twitter.com/en)
+* [Compte twitter développeur](https://developer.twitter.com/en)
 * [Twitter4J](http://twitter4j.org/)
 * [RestAPI](https://restfulapi.net/)  
 * [ReactJs](https://fr.reactjs.org/)
