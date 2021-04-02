@@ -21,7 +21,7 @@ export function Doughnut({ tweets }: Props) {
           type: "pie",
           name: "Browser share",
           data: [
-            ["Vraiment negatif,", Math.random() * 10],
+            ["Vraiment negatif", Math.random() * 10],
             ["negatif", 5],
             ["neutre", 10],
             ["positif", 7],
