@@ -146,7 +146,7 @@ Ce projet peut servir de base :
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Un tutoriel en français sera fini dès que le projet sera fini. 
+Un tutoriel en français sera fait dès que le projet sera fini. 
 
 <!-- LICENSE -->
 ## License
