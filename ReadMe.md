@@ -1,16 +1,3 @@
-
-
-Sentiment analysis for live stream tweets, using [Twitter4J](http://twitter4j.org/), [Stanford CoreNLP library](https://stanfordnlp.github.io/CoreNLP), [Spring Boot](https://spring.io/projects/spring-boot) and [ReactJs](https://reactjs.org/)!
-More details on this [blog post](https://aboullaite.me/stanford-corenlp-java/)
-
-
-
-### Running the app
-
-Make sure to update to update `application.yaml` file with the required keys that will allow you to authenticate correctly when calling the Twitter API to retrieve tweets. You probably need to create a [Twitter developer account](https://developer.twitter.com/) and create an application.
-
-Start afterward the backend server using `mvn spring-boot:run` and the frontend `npm start`.
-
 # Analyseur de tweets
 
 <!--
@@ -106,6 +93,9 @@ les choix de répartition de notre modèle.
 
 * [Java 8](https://www.java.com/fr/download/help/java8.html)
 * [Standford Core NLP](https://stanfordnlp.github.io/CoreNLP/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Compte twitter développeur] (https://developer.twitter.com/en)
+* [Twitter4J](http://twitter4j.org/)
 * [RestAPI](https://restfulapi.net/)  
 * [ReactJs](https://fr.reactjs.org/)
 * [NodeJs](https://nodejs.org/en/)
@@ -116,11 +106,13 @@ les choix de répartition de notre modèle.
 <!-- GETTING STARTED -->
 ## Démarrer le projet
 
-Il faut se réferer au prérequis. ReactJs nécessite un serveur : NodeJs.
+Il faut se réferer au prérequis. ReactJs nécessite un serveur : NodeJs. IL faut aussi récupérer les token de l'API twitter4J.
 
 ### Prérequis
 
 * Java 8
+
+* Compte twitter développeur 
 
 * Maven
   
